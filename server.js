@@ -13,9 +13,8 @@ app.get('/marsMissions', (req, res) => {
 })
 
 //Show route
-app.get('/marsMissions/:id', (req,res)=>{
-    marsMission: marsMissions[req.params.id]
-    res.send(marsMissions[req.params.id])
+app.get('/marsMissions/:id',(req,res)=>{
+    res.send('Show Page')
 })
 
 
